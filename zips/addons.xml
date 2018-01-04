@@ -50,6 +50,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.220ro"
+       name="220.ro"
+       version="1.0.8"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Videoclipuri de pe 220.ro</summary>
+    <description>Urmareste filmulete funny, farse etc de pe 220.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.bromerzzgoesfishing"
 	name="bromerzz goes fishing"
 	version="0.2"
@@ -74,6 +93,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.digi24"
+       name="Digi24"
+       version="1.1.4"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni digi24</summary>
+    <description>Urmareste emisiunile aflate pe Digi24.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -87,6 +125,34 @@
 		<description></description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.video.falcmov" name="[COLOR orange]  Falcon[/COLOR]" version="1.1" provider-name="AJ">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">AJ Brings You The Very Best Movies.</summary>
+    <description lang="en">Please Enjoy, This Is An Ongoing Project!</description>
+    <disclaimer lang="en">AJ Takes No Credit Or Liability For The Content Provided!</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.7.2" provider-name="Markop159">
@@ -178,6 +244,25 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.protvro"
+       name="Protv.ro"
+       version="1.0.4"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni Protv.ro</summary>
+    <description>Urmareste emisiunile si serialele difuzate pe ProTV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.redpill" name="The [COLOR red]Red[/COLOR] Pill" version="2017.04.29.03" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -256,6 +341,44 @@
       - Watch internet video/audio streams (sopcast, acestream, http, rtmp, rtsp, mms ...) based on a remote channel list.
       http://streams.magazinmixt.ro
     </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.triluliluro"
+       name="trilulilu.ro"
+       version="2.0.2"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme online de la trilulilu.ro</summary>
+    <description>Urmareste videoclipuri de pe trilulilu.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvrplus"
+       name="TvrPlus"
+       version="1.0.2"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni TvrPlus</summary>
+    <description>Urmareste emisiunile aflate pe TvrPlus.ro</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -339,6 +462,25 @@
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<source>https://github.com/Twilight0/script.module.tulip</source>
 	</extension>
+</addon>
+
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.521.1" provider-name="Rick Phillips (ruuk)">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.addon.signals" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.script" library="control.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
+        <description lang="en">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=200877</forum>
+        <source>http://github.com/ruuk/script.module.youtube.dl</source>
+    </extension>
 </addon>
 
 <addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.30.1" provider-name="mrknow">
@@ -426,5 +568,117 @@
 		<summary lang="en">Proxy for f4m</summary>
 		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
 	</extension>
+</addon>
+
+<addon id="service.subtitles.regielive"
+       name="Regielive"
+       version="1.0.5"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Regielive</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/viorel-m/kodi-repo</source>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subsro"
+       name="Subs.ro"
+       version="1.0.8"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subs.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/viorel-m/kodi-repo</source>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subtitrarinoiro"
+       name="Subtitrari-noi.ro"
+       version="1.0.6"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subtitrari-noi.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/viorel-m/kodi-repo</source>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.titrariro"
+       name="Titrari.ro"
+       version="1.0.6"
+       provider-name="kingul">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Titrari.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/viorel-m/kodi-repo</source>
+  </extension>
+</addon>
+
+<addon id='torrenter.searcher.FileListRO' version='1.0.2'
+     name='Torrenter Searcher: FileListRO' provider-name='Kingul'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for FileList.RO.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера FileList.RO для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера FileList.RO для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
 </addon>
 </addons>
