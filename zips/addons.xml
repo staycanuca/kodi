@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.audio.karmamusic" name="Karma" version="1.0.1" provider-name="SchisM">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en">Listen to Free Music the Zen way...</summary>
+			<description lang="en">Note: Due to security protocols on htpps website this addon may not work on Kodi versions lower than Kodi 17.x</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
+
+			<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.securityshield" name="Security Shield"  provider-name="whufclee, surfacingx" version="1.0.7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Security Shield</summary>
+	<description>Run this add-on to quickly check your installed add-ons and repo's against the noobsandnerds Add-on Portal database as well as some more advanced features for checking running services etc. The main scan will quickly check if you have any content installed that's no longer working, considered depreciated or marked as potentially dangerous. Keeping old repositories (and potentially some addons) on your system is huge security flaw in the Kodi system so make sure you check regularly. The scan process is extremely quick and should just take a few seconds even with hundreds of add-ons installed.</description>
+    <platform>all</platform>
+	<genre>devtools, other</genre>
+	<video_guide>HsiXVi-sKxA</video_guide>
+  </extension>
+</addon>
+
+<addon id="plugin.program.totalinstaller" name=" [COLOR=dodgerblue]C[/COLOR][COLOR ghostwhite]ommunity[/COLOR] [COLOR=dodgerblue]P[/COLOR][COLOR ghostwhite]ortal[/COLOR]" version="3.2.4" provider-name="noobsandnerds.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR=ghostwhite]C[/COLOR][COLOR dodgerblue]ommunity[/COLOR] [COLOR=ghostwhite]P[/COLOR][COLOR dodgerblue]ortal[/COLOR]</summary>
+	<description>Your all in one Installer. The simplest way to have a fully setup system in a matter of minutes. Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+    <ref>47dde68954e71460cb34886583bf21d7</ref>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bromerzzgoesfishing"
+	name="bromerzz goes fishing"
+	version="0.2"
+	provider-name="bromerzz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.python.koding.aio" version="0.5"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">bromerzz goes fishing</summary>
+    <description lang="en">This sounds very fishy to me!</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website>http://noobsandnerds.com</website>
+    <source></source>
+    <broken>Depreciated, replaced by Fishing Streams</broken>
+    <news></news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.video.F4mProxy" version="2.7.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>f4mTester</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.7.2" provider-name="Markop159">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
+        <forum><![CDATA[http://forums.tvaddons.ag/addon-releases/47568-kodi-popcorn-time]]></forum>
+        <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
+        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+        <summary lang="de"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="en"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="es"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="fr"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="hr"><![CDATA[Trenutačno gledajte filmove, TV Serije i Anime.]]></summary>
+        <summary lang="zh"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="nl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="pl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="pt"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="pt_BR"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
+        <summary lang="sl"><![CDATA[Takojšnji ogled Filmov, TV Serij ter Anime.]]></summary>
+        <description lang="de"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="es"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="fr"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="hr"><![CDATA[Sa KODI Popcorn Time možete pretraživati filmove, TV serije i Anime koje možete odmah gledati u KODIJU. NAPOMENA: KODI Popcorn Time će nastaviti dijeliti sadržaj dok gledate film, TV seriju ili Anime.]]></description>
+        <description lang="zh"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="nl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="pl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="pt"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="pt_BR"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
+        <description lang="sl"><![CDATA[Z KODI Popcorn Time lahko iščete Filme, TV Serije in Anime, ki si jih lahko takoj ogledaš v KODI-ju. OPOMBA: KODI Popcorn Time med ogledom filmov, TV Serij ter Anime deli video dalje tudi drugim uporabnikom.]]></description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.nantuts" name="NaN Tutorials" version="0.0.1" provider-name="noobsandnerds, coldkeys">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.addon.common" version="2.0.0"/>
+		<import addon="plugin.video.youtube" version="5.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">NoobsandNerds</summary>
+		<description lang="en">Kodi Tutorials, Hardware Tutorials, Kodi Live Chats.</description>
+		<platform>all</platform>
+		<forum>n/a</forum>
+		<website>n/a</website>
+	</extension>
+</addon>
+
+<addon id="plugin.video.neptune" version="1.2.9" name=" Neptune Rising" provider-name="Mr.Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.neptune.artwork" />
+		<import addon="script.neptune.metadata" />
+                <import addon="script.module.urlresolver"/>
+                <import addon="script.module.metahandler"/>
+                <import addon="script.module.requests"/>
+                <import addon="script.module.beautifulsoup"/>
+                <import addon="script.module.schism.common"/>
+                <import addon="script.module.futures"/>
+                <import addon="script.module.nanscrapers" version="0.5.41" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="neptune.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Neptune Rising</summary>
+		<description lang="en">Movie, TV Show, and Playlist Add-on</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.redpill" name="The [COLOR red]Red[/COLOR] Pill" version="2017.04.29.03" provider-name="SchisM">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup"/>
+		<import version="3.0.0" addon="script.module.urlresolver"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="redpill.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en">Open your mind...</summary>
+			<description lang="en">Open your mind with a large selection of documentary movies</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
+
+			<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.revvedup"
+	name="Revved Up"
+	version="0.0.3"
+	provider-name="Deezel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.python.koding.aio" version="0.5"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Nascar Replays</summary>
+    <description lang="en">Replays for all you Nascar Fans.[CR]Big thanks to Coldkeys for his help with this addon.[CR]Thanks to whuflclee and everyone at noobsandnerds.com for their support as well. [CR] and a big shout out to Dabutcher for the idea!!</description>
+    <platform>all</platform>
+    <forum>http://noobsandnerds.com/support/showthread.php?tid=17650</forum>
+    <website>http://noobsandnerds.com</website>
+    <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/plugin.video.revvedup</source>
+    <news>Recoded using Python Koding framework and added 2017 Nascar Replays</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sportsdevil.launcher" name="SportsDevil Launcher" version="0.2.1" provider-name="noobsandnerds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil REFRESH</summary>
+    <description lang="en">This will install the latest versions of SportsDevil and clean any old data that may be stopping the addon from opening certain pages. As SportsDevil has no official repository different people have taken it upon themselves to upload newer versions of the addon to their repo's. Due to this there is always a chance an update may break a previously working version so this addon stores a backup of your existing SportsDevil so you can always revert back if needed.</description>
+    <platform>all</platform>
+    <broken>Check Add-on Portal for latest versions of SD, as of July 2017 nobody seems to be maintaining SportsDevil but have a google and you may be lucky and find a working version.</broken>
+  </extension>
+</addon>
+
+<addon id="repository.danvaly" name="[COLOR blue]Danvaly Repo[/COLOR]" version="0.0.1" provider-name="Danvaly">
+	<extension point="xbmc.addon.repository" name="danvaly">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/danvaly/kodi/master/zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/danvaly/kodi/zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/danvaly/kodi/master/zip/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">Danvaly Repo</description>
+		<genre>movies,suptitles,tv shows,online tv, online radio, romania</genre>
+	</extension>
+</addon>
+
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.46" provider-name="Team NaN">
+        <requires>
+                <import addon="xbmc.python" version="2.1.0"/>
+                <import addon="script.module.beautifulsoup" version="3.2.1"/>
+                <import addon="script.module.futures" version="2.2.0"/>
+                <import addon="script.module.requests"/>
+               <import addon="script.module.six"/>
+				<!--<import addon="script.module.muckys.common" version="1.3.5" />-->
+                <!--<import addon="script.module.urlresolver" version="3.0.0" optional="true"/>-->
+                <!--<import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>-->
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.python.pluginsource" library="lib/default.py">
+                <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+                <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+                <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+                </description>
+                <license>GPL v3</license>
+                <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/script.module.nanscrapers</source>
+                <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
+                <website>http://noobsandnerds.com</website>
+        </extension>
+</addon>
+
+<addon id="script.module.python.koding.aio"
+   name="Python Koding AIO"
+   version="0.9.9.1"
+   provider-name="Total Revolution, noobsandnerds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="1.2.0"/>
+    <import addon="script.module.requests" version="2.3.0"/>
+    <import addon="script.module.beautifulsoup" version="2.1.31"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Python Koding All In One</summary>
+    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. Although developed at totalrevolution.tv this also contains unique features which hook into the noobsandnerds.com framework so a big thanks to the team and users who keep the portals updated.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>Creative Commons 4.0-NC-ND</license>
+    <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
+    <website>http://totalrevolution.tv</website>
+    <news>Added new class from OptimusGREEN allowing for custom add-on settings</news>
+    <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
+  </extension>
+</addon>
+
+<addon id="script.module.tulip" name="Tulip Routine Libraries" version="1.0.8" provider-name="Twilight0">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Tulip Helper module</summary>
+		<description lang="en">Tulip Routine Libraries are based on Lambda's "lamlib". It has some additions, most being in control module.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<source>https://github.com/Twilight0/script.module.tulip</source>
+	</extension>
+</addon>
+
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.30.1" provider-name="mrknow">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.python.pluginsource" library="lib/default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver. Resolve common video host URL's to be playable in XBMC/Kodi. Website http://filmkodi.com . Our suport forum https://github.com/mrknow/filmkodi/issues. </summary>
+		<description lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+	</extension>
+</addon>
+
+<addon id="script.tvportal" name="TV Portal" version="2.1.0" provider-name="whufclee, DixieDean, Spoyser">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.module.elementtree" version="1.2.7"/>
+        <import addon="repository.noobsandnerds" version="0.0.0.1"/>
+        <import addon="plugin.program.super.favourites" version="0.0.0.1"/>
+        <import addon="plugin.video.metalliq" version="1.0.5"/>
+        <import addon="script.tvportal.tools" version="1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py" />
+    <extension point="xbmc.service" library="service.py" start="login" />
+    <extension point="xbmc.addon.metadata">
+   <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+  </extension>
+        <summary>TV Portal EPG</summary>
+        <description>Much more than just an EPG. The aim of the project is to create something as feature rich as possible but at the same time offer a fully automated solution which requires very little configuration by the end user. With the community giving feedback and ideas as well as submitting artwork/listings for others to use it's really made this EPG stand out from the crowd. If you want innovating features then TV Portal is where you'll find them first! Development is VERY active at noobsandnerds.com</description>
+        <platform>all</platform>
+        <language></language>
+        <license>GPLv2</license>
+        <disclaimer>Thanks to the On-Tapp.TV team for the original code this was forked from. That was used as a base as it was the best EPG solution available at the time, the code has now been hugely improved upon and has gone in a very different direction to the OTTV project.</disclaimer>
+        <ref>1ad691c7b9550400bba955a1fc2497ce</ref>
+        <video_guide></video_guide>
+        <video_preview>WdKIzajiBBI</video_preview>
+        <website>http://noobsandnerds.com</website>
+        <forum>http://noobsandnerds.com/support/forumdisplay.php?fid=252</forum>
+    </extension>
+
+	<extension point="kodi.context.item" library="osd.py">
+      <item>
+        <label>TV Portal Mini-Guide</label>
+        <visible>true</visible>
+      </item>
+	</extension>
+</addon>
+
+<addon id="script.tvportal.tools" name="TVP Tools" version="1.4" provider-name="whufclee (modded from spoysers original)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.3.0"/>
+    <import addon="repository.primaeval" version="0.0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV Portal useful tools</summary>
+    <description lang="en">TV Portal supplemental tools. Thanks to the OTTV team for the original OTTV Tools this code was originally based on.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.8.7" provider-name="Shani">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+		<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Proxy for f4m</summary>
+		<description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+	</extension>
+</addon>
+</addons>

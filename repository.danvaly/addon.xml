@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.danvaly" name="[COLOR blue]Danvaly Repo[/COLOR]" version="0.0.1" provider-name="Danvaly">
+	<extension point="xbmc.addon.repository" name="danvaly">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/danvaly/kodi/master/zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/danvaly/kodi/zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/danvaly/kodi/master/zip/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">Danvaly Repo</description>
+		<genre>movies,suptitles,tv shows,online tv, online radio, romania</genre>
+	</extension>
+</addon>

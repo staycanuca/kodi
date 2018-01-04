@@ -1,0 +1,10 @@
+Visit noobsandnerds.com for all your Kodi needs
+The friendly, helpful, innovative team :)
+www.noobsandnerds.com
+
+Version 0.0.3 (11th April 2017):
+- Added 2017 Nascar Replays
+- Recoded so it's using Python Koding framework
+
+Version 0.0.1:
+-July 2016: Initial release
