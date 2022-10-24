@@ -103,6 +103,7 @@ aLista =    ([
             [ "Muzica noua", "PLmOk00V-7RN6A1wTBENnzClDilHmLrhP4", "Lumowell.jpg", "Muzica noua", "playlist"],
             [ "Romanian Hits 2022",  "romanian hits 2022", "RobertaGym.jpg", "Romanian Hits 2022", "cautare"],
             [ "Muzica de petrecere",  "muzica de petrecere veche", "RobertaGym.jpg", "Muzica de petrecere", "cautare"],
+	    [ "Muzica lautareasca veche",  "muzica de petrecere veche", "RobertaGym.jpg", "Muzica de petrecere", "cautare"],
             [ "Manele", "manele in trend", "RobertaGym.jpg", "Muzica de pe Youtube", "cautare"]])
 
 ######  end yt code
