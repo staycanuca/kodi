@@ -97,7 +97,7 @@ aLista =    ([
             [ "Trending",  "trending romania", "RobertaGym.jpg", "Trending romania", "cautare"],
             [ "Arhiva TVR",  "UCnCYIhudgWq6biY4CjLuavQ", "RobertaGym.jpg", "În mai bine de jumătate de secol, TVR a strâns, în imagini alb-negru şi color, frânturi de istorie. Prin ele, milioane de români au trăit la unison emoţii: mândrie, bucurie, tristeţe, îngrijorare, speranţă.", "canal"],
             [ "Documentare",  "documentare subtitrate", "Lumowell.jpg", "Documentare in limba Romana de pe Youtube", "cautare"],
-            [ "Documenatre subtitrate",  "PLmFAuMp28WA4CfDpaH5yj4Xg09rNIfW6V", "Lumowell.jpg", "Documentare in limba Romana de pe Youtube", "playlist"],
+            [ "Documentare subtitrate",  "PLmFAuMp28WA4CfDpaH5yj4Xg09rNIfW6V", "Lumowell.jpg", "Documentare in limba Romana de pe Youtube", "playlist"],
             [ "Filme subtitrate", "filme subtitrare", "RobertaGym.jpg", "Filme subtitrate pe Youtube", "cautare"],
             [ "Desene animate", "desene animate in romana", "RobertaGym.jpg", "Desene animate de pe Youtube", "cautare"],
             [ "Muzica noua", "PLmOk00V-7RN6A1wTBENnzClDilHmLrhP4", "Lumowell.jpg", "Muzica noua", "playlist"],
